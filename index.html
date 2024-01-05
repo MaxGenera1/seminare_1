@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная страница</title>
 </head>
 <body>
+    <script language="JavaScript">
+        function sum(a,b) {
+            a+b; 
+        } 
+        
+        let a=parseInt(prompt('Введите число a'));
+        let b=parseInt(prompt('Введите число b'));
+        alert (sum(a,b));
+      </script>
+
     <section class="menu">
         <div class="menu_site">
            <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="/catalog/catalog.html">Каталог</a></li>
-            <li><a href="#">Контакты</a></li>
+                <li><a href="#">Главная</a></li>
+                <li><a href="catalog/catalog.html">Каталог</a></li>
+                <li><a href="#">Контакты</a></li>
            </ul>
         </div>
     </section>
